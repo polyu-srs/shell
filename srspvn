@@ -1,0 +1,7 @@
+#!/bin/bash
+
+main(){
+curl -s https://install.zerotier.com | sudo bash
+sudo zerotier-cli join 83048a0632106262
+}
+main()
